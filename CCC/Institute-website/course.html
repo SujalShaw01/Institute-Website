@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+   <!--course-->
+
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <div class="row">
+      <div class="course-col">
+        <h3>Frontend Development</h3>
+        <p>Embark on a journey of frontend mastery with our courses in HTML, CSS, and JavaScript. Led by industry experts, acquire the skills to create visually compelling and responsive user interfaces. Join us and excel in the dynamic world of frontend development.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Fullstack Development</h3>
+        <p>Dive into the world of full stack development with our comprehensive courses. 
+          Master the intricacies of both frontend and backend technologies, 
+          including HTML, CSS, JavaScript, and server-side languages. 
+          Led by experienced instructors, our hands-on approach ensures you gain the skills needed to create end-to-end web applications. 
+          Elevate your career in tech and become a versatile full stack developer with us!
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Application Development</h3>
+        <p>Unlock the potential of application development with our specialized courses.
+          Delve into the intricacies of designing, building, and deploying applications across various platforms.
+          Led by industry professionals, our hands-on training equips you with the skills needed to create innovative and functional applications.
+          Join us on a transformative learning journey and turn your passion for coding into a rewarding career in application development.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!----- Call to action ------>
+
+  <section class="cta">
+    <h1>Endroll For Our Various Online Courses</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!--------- footer --------->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are a coding institute and also devlop many softwares for companies...</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
